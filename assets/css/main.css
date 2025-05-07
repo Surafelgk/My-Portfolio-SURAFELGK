@@ -1139,6 +1139,23 @@ section,
   padding-right: 50px;
 }
 
+.portfolio .portfolio-item .portfolio-info p {
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  font-size: 14px;
+  margin-bottom: 0;
+  padding-right: 50px;
+}
+
+
+.portfolio .portfolio-item .portfolio-info .preview-link:hover,
+.portfolio .portfolio-item .portfolio-info .details-link:hover {
+  color: var(--accent-color);
+}
+
+.portfolio .portfolio-item .portfolio-info .details-link {
+  right: 14px;
+  font-size: 50px;
+}
 
 .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
@@ -1214,7 +1231,7 @@ section,
 /*--------------------------------------------------------------
 # Portfolio Details Section
 --------------------------------------------------------------*/
-/*.portfolio-details .portfolio-details-slider img {
+.portfolio-details .portfolio-details-slider img {
   width: 80%;
 }
 
@@ -1279,7 +1296,7 @@ section,
 
 
 /* Custom CSS */
-/*.gradient-bg {
+.gradient-bg {
   background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
 }
 
